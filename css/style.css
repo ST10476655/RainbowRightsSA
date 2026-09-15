@@ -1,0 +1,437 @@
+/* =====================================================
+   RAINBOW RIGHTS SOUTH AFRICA
+   PART 2 - CSS STYLING AND RESPONSIVE DESIGN
+===================================================== */
+
+
+/* =====================================================
+   RESET DEFAULT BROWSER SPACING
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* =====================================================
+   BODY STYLING
+===================================================== */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:white;
+    color:#333;
+    line-height:1.6;
+}
+
+
+/* =====================================================
+   UNIVERSAL IMAGE STYLING
+===================================================== */
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+header{
+    display:flex;
+    width:100%;
+}
+
+
+/* =====================================================
+   LOGO SECTION
+===================================================== */
+
+.logo{
+    width:30%;
+    background:#ff4040;
+    color:white;
+    padding:20px;
+}
+
+.logo h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+
+/* =====================================================
+   NAVIGATION BAR
+===================================================== */
+
+nav{
+    width:70%;
+    background:#707070;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+
+/* =====================================================
+   NAVIGATION LINKS
+===================================================== */
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding:18px;
+}
+
+
+/* HOME */
+
+nav a:nth-child(1){
+    background:#ff962c;
+}
+
+/* ABOUT */
+
+nav a:nth-child(2){
+    background:#f5c400;
+}
+
+/* RESOURCES */
+
+nav a:nth-child(3){
+    background:#31c95e;
+}
+
+/* EVENTS */
+
+nav a:nth-child(4){
+    background:#1e88e5;
+}
+
+/* VOLUNTEER */
+
+nav a:nth-child(5){
+    background:#6250f0;
+}
+
+/* DONATE */
+
+nav a:nth-child(6){
+    background:white;
+    color:black;
+}
+
+/* CONTACT */
+
+nav a:nth-child(7){
+    background:#e9e9e9;
+    color:black;
+}
+
+
+/* =====================================================
+   NAVIGATION HOVER EFFECT
+===================================================== */
+
+nav a:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+
+/* =====================================================
+   HERO SECTION
+===================================================== */
+
+.hero{
+    display:flex;
+    align-items:center;
+}
+
+
+/* =====================================================
+   HERO IMAGE
+===================================================== */
+
+.hero-image{
+    width:30%;
+    text-align:center;
+}
+
+.hero-image img{
+    width:250px;
+    max-width:100%;
+    height:auto;
+    margin:auto;
+}
+
+
+/* =====================================================
+   HERO CONTENT
+===================================================== */
+
+.hero-content{
+    width:70%;
+    background:#6250f0;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.hero-content h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.hero-content p{
+    font-size:1.1rem;
+}
+
+
+/* =====================================================
+   BUTTON CONTAINER
+===================================================== */
+
+.buttons{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.btn-blue{
+    background:#19bfd5;
+    color:white;
+    text-decoration:none;
+    padding:15px 40px;
+    border-radius:30px;
+}
+
+.btn-green{
+    background:#15a84c;
+    color:white;
+    text-decoration:none;
+    padding:15px 40px;
+    border-radius:30px;
+}
+
+
+/* =====================================================
+   BUTTON HOVER EFFECT
+===================================================== */
+
+.btn-blue:hover,
+.btn-green:hover{
+    opacity:0.8;
+}
+
+
+/* =====================================================
+   ABOUT SUMMARY SECTION
+===================================================== */
+
+.about-summary{
+    background:#00a651;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.about-summary h2{
+    margin-bottom:20px;
+}
+
+.about-summary img{
+    width:250px;
+    max-width:100%;
+    margin:20px auto;
+}
+
+
+/* =====================================================
+   MISSION AND VISION
+===================================================== */
+
+.mission-vision{
+    background:#00a651;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+
+    padding:40px;
+}
+
+.mission,
+.vision{
+    width:45%;
+}
+
+
+/* =====================================================
+   COMMUNITY SECTION
+===================================================== */
+
+.community{
+    background:#f5c400;
+    text-align:center;
+    padding:40px;
+}
+
+.community h2{
+    margin-bottom:30px;
+}
+
+
+/* =====================================================
+   COMMUNITY GRID
+===================================================== */
+
+.community-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+
+/* =====================================================
+   COMMUNITY CARDS
+===================================================== */
+
+.card{
+    padding:20px;
+}
+
+.card img{
+    width:120px;
+    max-width:100%;
+    height:auto;
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+
+/* =====================================================
+   FORMS
+===================================================== */
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+}
+
+
+/* =====================================================
+   BUTTON STYLING
+===================================================== */
+
+button{
+    background:#00a651;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e88e5;
+}
+
+
+/* =====================================================
+   SPECIAL IMAGES
+   ABOUT IMAGE
+   EVENTS ICON
+   VOLUNTEER ICON
+   DONATION RIBBON
+===================================================== */
+
+.about-summary img,
+.community img,
+.hero-image img{
+    max-width:250px;
+    height:auto;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+    background:#b96d00;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+footer h2{
+    margin-bottom:10px;
+}
+
+
+/* =====================================================
+   TABLET RESPONSIVE DESIGN
+===================================================== */
+
+@media screen and (max-width:768px){
+
+    header{
+        flex-direction:column;
+    }
+
+    .logo{
+        width:100%;
+        text-align:center;
+    }
+
+    nav{
+        width:100%;
+        flex-wrap:wrap;
+        padding:10px;
+    }
+
+    .hero{
+        flex-direction:column;
+    }
+
+    .hero-image{
+        width:100%;
+    }
+
+    .hero-content{
+        width:100%;
+    }
+
+        .mission-vision{
+            flex-direction:column;
+        }
+    
+    }
