@@ -88,11 +88,14 @@ The website provides:
 - Tested images and media
 - Tested forms
 - Tested desktop view
-![alt text](image-2.png)
+<img width="1279" height="789" alt="image" src="https://github.com/user-attachments/assets/eaff3755-0993-4534-a04c-e562ede9a12e" />
+
 - Tested tablet view
-![alt text](image.png)
+<img width="728" height="881" alt="image" src="https://github.com/user-attachments/assets/3059bdb2-ad66-49da-83fc-f8a4eaee901b" />
+
 - Tested mobile view
-![alt text](image-1.png)
+<img width="643" height="764" alt="image" src="https://github.com/user-attachments/assets/726b2068-dda4-4798-ab20-b743b4c697e6" />
+
 
 ---
 
