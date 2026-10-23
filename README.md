@@ -98,36 +98,122 @@ The website provides:
 
 # Part 3 Enhancements
 
-## Functionality
-- FAQ Accordion
-- Resource Search
-- Interactive Image Gallery
-- Interactive Map
-- Enquiry Form
-- JavaScript Validation
+## Overview
 
-## SEO
-- Meta Descriptions
-- Keywords
+Part 3 focused on improving the functionality, usability, accessibility and search engine optimisation (SEO) of the Rainbow Rights South Africa website. Interactive features were added using JavaScript, while SEO enhancements were implemented to improve discoverability and website performance.
+
+---
+
+## Functionality Enhancements
+
+### FAQ Accordion
+An interactive FAQ accordion was added to the Resources page. Users can expand and collapse frequently asked questions to access information without overcrowding the page.
+
+### Resource Search Functionality
+A dynamic search feature was implemented on the Resources page. Users can search for resources and information in real time using JavaScript.
+
+### Interactive Image Gallery
+A lightbox image gallery was added to the Events page. Users can click images to view larger versions and click outside the image to close the gallery.
+
+### Interactive Map
+An interactive map was added to the Contact page using Leaflet and OpenStreetMap. Visitors can view the organisation's location and interact with the map.
+
+### Enquiry Page
+A new enquiry.html page was created to allow users to submit:
+
+- Volunteer enquiries
+- Sponsorship enquiries
+- Partnership enquiries
+- General enquiries
+
+### Form Validation
+JavaScript validation was implemented for all forms to ensure users enter valid data before submitting.
+
+Validation includes:
+
+- Required fields
+- Email validation
+- Phone number validation
+- Message length validation
+
+---
+
+## Search Engine Optimisation (SEO)
+
+### Meta Descriptions
+Unique meta description tags were added to every page.
+
+### Keywords
+Relevant keywords were added to improve search engine visibility.
+
+### Title Tags
+Each page contains a unique page title.
+
+### Image Optimisation
+All website images include descriptive alt text attributes.
+
+### Lazy Loading
+Images use the loading="lazy" attribute to improve website performance.
+
+### Internal Linking
+Navigation links were updated to improve user navigation and search engine indexing.
+
+### robots.txt
+A robots.txt file was created to guide search engine crawlers.
+
+### sitemap.xml
+A sitemap.xml file was added to assist search engines in indexing all website pages.
+
+---
+
+## Accessibility Improvements
+
+The following accessibility enhancements were implemented:
+
+- Alternative text for all images
+- Responsive design for mobile devices
+- Form validation and user feedback
+- Clear navigation structure
+- Consistent heading hierarchy
+
+---
+
+## Files Added
+
+- enquiry.html
+- script.js
 - robots.txt
 - sitemap.xml
-- Image Optimisation
-- Lazy Loading
 
-## New Page
-- enquiry.html
-
-## Accessibility
-- Alt Text
-- Responsive Design
-- Form Validation
 ---
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- Visual Studio Code
-- GitHub
+- JavaScript
+- Leaflet.js
+- OpenStreetMap
 
 ---
+
+## Changelog
+
+### Part 3 Updates
+
+- Added FAQ accordion functionality
+- Added resource search functionality
+- Added interactive image gallery
+- Added interactive map
+- Added enquiry page
+- Added JavaScript form validation
+- Added responsive improvements
+- Added SEO metadata
+- Added robots.txt
+- Added sitemap.xml
+- Added image lazy loading
+- Updated website navigation
+
+---
+
+Part 3 – Functionality and SEO Enhancements

@@ -223,3 +223,27 @@ if (enquiryForm) {
     });
 
 }
+/* =========================================
+   AJAX FORM SUBMISSION DEMO
+========================================= */
+
+const contactForm = document.getElementById("contactForm");
+
+if (contactForm) {
+
+    contactForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const response =
+            document.getElementById("formResponse");
+
+        response.innerHTML =
+            "Message submitted successfully.";
+
+        response.style.color =
+            "green";
+
+    });
+
+}
