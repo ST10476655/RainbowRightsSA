@@ -96,7 +96,31 @@ The website provides:
 - Tested mobile view
 <img width="643" height="764" alt="image" src="https://github.com/user-attachments/assets/726b2068-dda4-4798-ab20-b743b4c697e6" />
 
+# Part 3 Enhancements
 
+## Functionality
+- FAQ Accordion
+- Resource Search
+- Interactive Image Gallery
+- Interactive Map
+- Enquiry Form
+- JavaScript Validation
+
+## SEO
+- Meta Descriptions
+- Keywords
+- robots.txt
+- sitemap.xml
+- Image Optimisation
+- Lazy Loading
+
+## New Page
+- enquiry.html
+
+## Accessibility
+- Alt Text
+- Responsive Design
+- Form Validation
 ---
 
 ## Technologies Used
