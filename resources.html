@@ -54,6 +54,8 @@
 
             <a href="contact.html">CONTACT</a>
 
+            <a href="enquiry.html">ENQUIRY</a>
+
         </nav>
 
     </header>
@@ -78,7 +80,7 @@
                 asked questions and counselling
                 resources for LGBTQIA+ individuals,
                 families and allies.
-            </p>
+            </h2>
 
         </div>
 
@@ -88,18 +90,16 @@
          EDUCATIONAL ARTICLES SECTION
     ========================================== -->
 
-    <section class="about-summary">
 
-        <h2>Educational Articles</h2>
+    <h2>Educational Articles</h2>
 
-        <img src="images/icon-education.jpg"
-             alt="Educational Resources">
+    <img src="images/icon-education.jpg"
+         alt="Educational Resources">
 
-        <p        promote equality, diversity, inclusion
-            and awareness of LGBTQIA+ rights.
-        </p>
+    <p        promote equality, diversity, inclusion
+              and awareness of LGBTQIA+ rights.
+    </p>
 
-    </section>
 
     <!-- =========================================
          FAQ SECTION
@@ -189,6 +189,23 @@
 
     </section>
 
+    <!-- ===============================
+     SEARCH FUNCTIONALITY SECTION
+     Allows users to search resources
+================================ -->
+
+    <section class="search-section">
+
+        <!-- Search input field -->
+        <input
+                type="text"
+                id="searchInput"
+                placeholder="Search resources..."
+        >
+
+    </section>
+
+
     <!-- =========================================
          ADDITIONAL SUPPORT SECTION
     ========================================== -->
@@ -199,7 +216,7 @@
 
         <div class="community-grid">
 
-            <div class="card">
+            <div class="resource-card">
 
                 <img src="images/icon-rights.jpg" alt="Human Rights">
 
@@ -212,7 +229,7 @@
 
             </div>
 
-            <div class="card">
+            <div class="resource-card">
 
                 <img src="images/icon-support.jpg" alt="Support Services">
 
@@ -225,7 +242,7 @@
 
             </div>
 
-            <div class="card">
+            <div class="resource-card">
 
                 <img src="images/icon-community.jpg" alt="Community Resources">
 
@@ -240,6 +257,46 @@
 
         </div>
 
+    </section>
+
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <button class="faq-btn">
+                What services does Rainbow Rights South Africa provide?
+            </button>
+
+            <div class="faq-content">
+                <p>
+                    We provide advocacy, legal support, educational resources and community services.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-btn">
+                How can I become a volunteer?
+            </button>
+
+            <div class="faq-content">
+                <p>
+                    Visit the Volunteer page and complete the volunteer registration form.
+                </p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-btn">
+                Are counselling services confidential?
+            </button>
+
+            <div class="faq-content">
+                <p>
+                    Yes, all counselling and support services are handled respectfully and confidentially.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- =========================================
@@ -265,7 +322,7 @@
         </p>
 
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

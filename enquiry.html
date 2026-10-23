@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Description -->
+    <meta name="description"
+          content="Submit volunteer, sponsorship, partnership and general enquiries to Rainbow Rights South Africa.">
+
+    <!-- Page Title -->
+    <title>Enquiry | Rainbow Rights South Africa</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="enquiry-page">
+
+<!-- =========================================
+     HEADER SECTION
+========================================== -->
+
+<header>
+
+    <!-- Website Logo -->
+
+    <div class="logo">
+
+        <h1>
+            Rainbow Rights<br>
+            South Africa
+        </h1>
+
+    </div>
+
+    <!-- Navigation Menu -->
+
+    <nav>
+
+        <a href="index.html">HOME</a>
+
+        <a href="about.html">ABOUT US</a>
+
+        <a href="resources.html">RESOURCES</a>
+
+        <a href="events.html">EVENTS</a>
+
+        <a href="volunteer.html">VOLUNTEER</a>
+
+        <a href="donate.html">DONATE</a>
+
+        <a href="contact.html">CONTACT</a>
+
+        <a href="enquiry.html">ENQUIRY</a>
+
+    </nav>
+
+</header>
+
+<!-- =========================================
+     HERO SECTION
+========================================== -->
+
+<section class="enquiry-hero">
+
+    <h2>General Enquiries</h2>
+
+    <p>
+        Submit volunteer, sponsorship,
+        partnership or general enquiries.
+    </p>
+
+</section>
+
+<!-- =========================================
+     ENQUIRY FORM SECTION
+========================================== -->
+
+<section class="form-section">
+
+    <h2>Send Us an Enquiry</h2>
+
+    <form id="enquiryForm">
+
+        <!-- Full Name -->
+
+        <label for="name">
+            Full Name
+        </label>
+
+        <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                minlength="3"
+                maxlength="50"
+                required>
+
+        <!-- Email -->
+
+        <label for="email">
+            Email Address
+        </label>
+
+        <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required>
+
+        <!-- Phone -->
+
+        <label for="phone">
+            Phone Number
+        </label>
+
+        <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                pattern="[0-9]{10}"
+                required>
+
+        <!-- Enquiry Type -->
+
+        <label for="enquiryType">
+            Enquiry Type
+        </label>
+
+        <select
+                id="enquiryType"
+                name="enquiryType"
+                required>
+
+            <option value="">
+                Select an Option
+            </option>
+
+            <option value="Volunteer">
+                Volunteer
+            </option>
+
+            <option value="Sponsorship">
+                Sponsorship
+            </option>
+
+            <option value="Partnership">
+                Partnership
+            </option>
+
+            <option value="General Enquiry">
+                General Enquiry
+            </option>
+
+        </select>
+
+        <!-- Message -->
+
+        <label for="message">
+            Message
+        </label>
+
+        <textarea
+                id="message"
+                name="message"
+                rows="6"
+                maxlength="500"
+                placeholder="Enter your enquiry"
+                required></textarea>
+
+        <!-- Submit Button -->
+
+        <button type="submit">
+            Submit Enquiry
+        </button>
+
+    </form>
+
+    <!-- Success Message -->
+
+    <p id="formResponse"></p>
+
+</section>
+
+<!-- =========================================
+     FOOTER SECTION
+========================================== -->
+
+<footer>
+
+    <h2>Contact Us</h2>
+
+    <p>Email: info@rainbowrightssa.org.za</p>
+
+    <p>Follow us on social media</p>
+
+    <p>
+        Subscribe to our newsletter for
+        updates and events.
+    </p>
+
+    <p>
+        &copy; 2026 Rainbow Rights South Africa.
+        All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

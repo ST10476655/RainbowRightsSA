@@ -435,3 +435,314 @@ footer h2{
         }
     
     }
+    /* =================================
+       SEARCH SECTION
+    ================================= */
+
+    .search-section {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    /* Search text box */
+    #searchInput {
+        width: 60%;
+        max-width: 500px;
+        padding: 12px;
+        border: 2px solid #00b050;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* Search box focus effect */
+    #searchInput:focus {
+        outline: none;
+        border-color: #ff9800;
+    }
+/* =========================================
+   PART 3 - EDUCATIONAL ARTICLES SECTION
+========================================= */
+
+.about-summary {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-summary img {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* =========================================
+   PART 3 - COUNSELLING SECTION
+========================================= */
+
+.community {
+    text-align: center;
+}
+
+.community img {
+    display: block;
+    margin: 20px auto;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* =========================================
+   PART 3 - SEARCH FUNCTIONALITY
+========================================= */
+
+.search-section {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#searchInput {
+    width: 60%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #00b050;
+    border-radius: 5px;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #ff9800;
+}
+
+/* =========================================
+   PART 3 - FAQ ACCORDION
+========================================= */
+
+.faq-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #00b050;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.faq-btn:hover {
+    background-color: #008f40;
+}
+
+.faq-content {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.faq-content.active {
+    display: block;
+}
+
+/* =========================================
+   RESOURCE CARD HOVER EFFECT
+========================================= */
+
+.resource-card {
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: scale(1.05);
+}
+
+/* =========================================
+   BUTTON HOVER EFFECTS
+========================================= */
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+    #searchInput {
+        width: 90%;
+    }
+
+    .community img {
+        max-width: 100%;
+    }
+
+    .about-summary img {
+        max-width: 120px;
+    }
+
+    .faq-section {
+        width: 95%;
+    }
+}
+/* =========================================
+   LIGHTBOX GALLERY
+========================================= */
+
+.gallery-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+}
+/* =========================================
+   INTERACTIVE MAP
+========================================= */
+
+.map-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#map {
+    height: 400px;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+/* =========================================
+   ENQUIRY PAGE
+========================================= */
+
+.enquiry-page {
+    background-color: #f2c200;
+}
+
+.enquiry-hero {
+    background: #2962ff;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    width: 100%;
+}
+
+.enquiry-hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.enquiry-hero p {
+    font-size: 20px;
+}
+
+.form-section {
+    background-color: #f2c200;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.form-section form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section button {
+    margin-top: 20px;
+    background-color: #00b050;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #00883e;
+}
+
+#formResponse {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
